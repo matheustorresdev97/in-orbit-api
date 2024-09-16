@@ -22,3 +22,20 @@ GET http://localhost:3333/pending-goals
 ###
 
 GET http://localhost:3333/summary
+
+### 
+DELETE http://localhost:3333/goal
+Content-Type: application/json
+
+{
+  "goalId": "12345"
+}
+
+
+###
+DELETE http://localhost:3000/completion
+Content-Type: application/json
+
+{
+  "completionId": "67890"
+}
