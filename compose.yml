@@ -1,4 +1,4 @@
-name: pocket-js
+name: in-orbit
 
 services:
   pg:
